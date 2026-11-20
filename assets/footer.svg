@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 54" width="900" height="54" role="img" aria-label="EOF footer">
+  <defs>
+    <linearGradient id="fbg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="50%" stop-color="#0d1526"/>
+      <stop offset="100%" stop-color="#090d16"/>
+    </linearGradient>
+    <linearGradient id="fline" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#090d16" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#00f5d4" stop-opacity="0.7"/>
+      <stop offset="70%" stop-color="#38bdf8" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#090d16" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    @keyframes glowDot {
+      0%, 100% { opacity: 0.4; }
+      50% { opacity: 1; }
+    }
+    .dot { animation: glowDot 2.8s ease-in-out infinite; }
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, monospace; }
+  </style>
+  <rect width="900" height="54" rx="10" fill="url(#fbg)" stroke="#1e293b" stroke-width="1"/>
+  <rect x="40" y="1" width="820" height="1.5" fill="url(#fline)"/>
+  <circle cx="290" cy="27" r="3.5" fill="#00f5d4" class="dot"/>
+  <text x="450" y="31" text-anchor="middle" class="mono" font-size="12.5" fill="#94a3b8">0xDEADBEEF  //  EOF  //  github.com/maapik</text>
+  <circle cx="610" cy="27" r="3.5" fill="#38bdf8" class="dot"/>
+</svg>
